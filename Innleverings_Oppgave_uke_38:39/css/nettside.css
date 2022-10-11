@@ -1,0 +1,100 @@
+* {
+
+    margin: 50px;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+body {
+    text-align: center;
+}
+/* HTML-elementet <li> brukes til å representere et element i en liste. 
+Den må være inneholdt i et overordnet element: en ordnet liste ( <ol> ), 
+en uordnet liste ( <ul> ). */
+ul {
+    margin-left: 60px;
+}
+
+ul li {
+    list-style: none;
+
+
+
+}
+
+ul li a {
+    display: block;
+    padding: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Arial;
+    transition: 0.3s ease-in;
+    color: black;
+    background-color: rgb(205, 202, 202);
+
+
+
+}
+
+ul li a:hover {
+    background-color: rgb(84, 89, 84);
+    color: white;
+}
+
+
+.A {
+    background-color: white;
+    text-align: center;
+    height: 1000px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #41c2ed;
+
+
+}
+
+#a {
+    color: black;
+    border: 10px;
+    background-color: yellow;
+}
+
+.Tilbake {
+    border: 20px;
+    padding: 20px;
+    background-color: lightblue;
+    display: block;
+    float: left;
+
+
+
+}
+
+.Tilbake:hover {
+    transform: scale(1.1);
+    background: rgb(40, 243, 40);
+
+}
