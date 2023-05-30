@@ -127,6 +127,21 @@ body {
     padding-top: 80px;
 
 }
+
+.box6 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: monospace;
+    color: black;
+    width: 250px;
+    height: 220px;
+    background: #630330;
+    margin: 0px 10px;
+    transition: 0.5s;
+    padding-top: 80px;
+
+}
 .box3:hover {
     transform: scale(1.1);
     background: #550d2f;
@@ -139,6 +154,12 @@ body {
 }
 
 .box5:hover {
+    transform: scale(1.1);
+    background: #550d2f;
+    color: #e73c7e;
+}
+
+.box6:hover {
     transform: scale(1.1);
     background: #550d2f;
     color: #e73c7e;
